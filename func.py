@@ -4,7 +4,7 @@ class MyPlugin(idaapi.plugin_t):
     flags = idaapi.PLUGIN_FIX
     comment = "Este é um plugin IDA Python"
     help = "Este plugin imprime o endereço e a instrução de cada instrução na função atual\n"
-    wanted_name = "My Plugin"
+    wanted_name = "Benicio"
     wanted_hotkey = "Ctrl-Alt-P"
 
     def init(self):
