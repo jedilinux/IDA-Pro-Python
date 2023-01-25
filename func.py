@@ -2,13 +2,13 @@ import idaapi
 
 class MyPlugin(idaapi.plugin_t):
     flags = idaapi.PLUGIN_FIX
-    comment = "Este é um plugin IDA Python"
+    comment = "Este é um plugin para IDA Python"
     help = "Este plugin imprime o endereço e a instrução de cada instrução na função atual\n"
     wanted_name = "Benicio"
     wanted_hotkey = "Ctrl-Alt-P"
 
     def init(self):
-        idaapi.msg("My Plugin has been initialized\n")
+        idaapi.msg("Plugin foi inicializado\n")
         return idaapi.PLUGIN_OK
 
     def run(self, arg):
